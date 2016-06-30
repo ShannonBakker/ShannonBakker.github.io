@@ -1,0 +1,219 @@
+body{
+	font-family: Gotham!important;
+}
+
+/* loading page */
+#load_page{
+	width: 100%;
+	position: absolute;
+	z-index: 100;
+	background-color: white;
+	height:1600px; 
+	text-align: center;
+	font-size: 25px;
+}
+
+/* head text */
+h2{
+	position: absolute;
+	top:0px;
+	left: 450px;
+	font-weight: bold!important;
+}
+
+#intro{
+	width: 1200px;
+	position: absolute;
+	top:60px;
+	left: 70px; 
+}
+#intro_text{
+	text-align: center;
+}
+
+/* middle text */
+#highlights{
+	width: 1200px;
+	position: absolute;
+	top:950px;
+	left: 70px;
+}
+#highlights_text{
+	text-align: justify;
+}
+
+/* source */
+#source{
+	width: 1200px;
+	position: absolute;
+	top:1550px;
+	z-index: 20;
+	left: 70px;
+}
+
+/* maps */
+#svg_naar{
+	position: absolute; 
+	z-index:10; 
+	width: 400px; 
+	height: 500px;
+	left:920px; 
+	top: 150px;	
+}
+
+
+#svg_van{
+	position: absolute; 
+	z-index:1; 
+	width: 800px; 
+	height: 410px;
+	left:370px; 
+	top: 140px;
+}
+
+#svg_afstand{
+	position: absolute; 
+	z-index:10; 
+	width: 400px; 
+	height: 500px;
+	left:770px; 
+	top: 1100px; 
+}
+
+.map_netherlands path{
+	stroke: #6E6E6E;
+	stroke-width: 0.47991;	
+}
+
+#tooltip{
+	position: absolute;
+	z-index:10;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.4); 
+	color: #000;
+	color: rgba(255, 255, 255, 1.0);
+}
+.label{
+	font-weight: normal!important;
+}
+
+#explanation{
+	width: 250px;
+	position: absolute;
+	top:345px;
+	left: 100px;
+}
+#explanation_text{
+	text-align: justify;
+}
+
+/* search box */
+#select{
+	left:100px; 
+	top:160px; 
+	position:absolute;
+	height: 30px;
+}
+#choice_button{
+	position: absolute;  
+	width: 100px;
+	z-index: 10;
+	top:160px; 
+	height: 35px;
+	left:320px;
+}
+
+/* time slider */
+#slider{
+	position: absolute; 
+	width: 320px;
+	z-index: 10;
+	height: 10px;
+	left:100px; 
+	top: 250px;" 
+}
+
+/* linegraph */
+#line_box{
+	width: 960px;
+	position: absolute;
+	z-index: 20;
+	left:240px;
+	top: 570px;
+}
+
+line{
+	stroke-dasharray: 3, 3;
+	stroke: grey;
+	stroke-width: 1;
+}
+
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.y_axis_text{
+	text-anchor: end;
+	font-size:15px;
+}
+
+.line_naar {
+  fill: none;
+  stroke: red;
+}
+
+.line_van {
+  fill: none;
+  stroke: blue;
+}
+
+.background {
+  fill: none;
+  pointer-events: all;
+  z-index:20;
+}
+
+/* barchart */
+#distance{
+	width: 960px;
+	position: absolute;
+	left:150px;
+	top: 1100px;
+}
+#distance_title{
+	position: absolute;
+	top:1080px;
+	left: 350px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.bar_container{
+	font-size: 10px;
+}
+
+.bar {
+	opacity:0.5;
+	fill: #08519c;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font-size: 10px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.y.axis path {
+  display: none;
+}
